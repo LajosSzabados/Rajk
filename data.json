@@ -1,0 +1,22 @@
+{
+    "Food": ["Ropi","Chips","Ropi"],
+    "Alcohol": {
+        "Beer": {
+            "Blond": ["Kozel,Kobanyai,Kozel"],
+            "Brown": ["Staropramen Dark, Kozel Dark"]
+        },
+        "Wine": {
+            "Red":["Dankó"],
+            "Rose":["Epres"],
+            "White":["Rózsa Sándor"]
+        },
+        "Spirits":{
+            "Vodka":["Finlandia"],
+            "Whiskey":["Jack Daniels"],
+            "Palinka":["Hazi barack"],
+            "Others":["Bombay gin"]
+        }
+    },
+    "Other": ["Pen"]
+
+}
