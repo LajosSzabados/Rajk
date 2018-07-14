@@ -13,21 +13,21 @@
     <ul class="navbar-nav mr-auto">
       <li class="nav-item "><a class="nav-link" href="index.php">Főoldal</a></li>
     </ul>
-    <form method="post" name='form' class="form-inline my-2 my-lg-0 float-right">
-      <select class="form-control mr-sm-2 bg-primary text-white" name="MainType" placeholder="Fő típus"> 
+    <form method="post" id='form' class="form-inline my-2 my-lg-0 float-right">
+      <select class="form-control mr-sm-2 bg-primary text-white" id="MainType" placeholder="Fő típus"> 
         <option value="Food">Étel</option>
         <option value="Alcohol">Alkohol</option>
         <option value="Drink">Ital</option>
       </select>
-      <select class="form-control mr-sm-2 bg-primary text-white" name="SecType" placeholder="Másod típus"> 
-        <!--> <option value="Sör">Sör</option>
-        <option value="Bor">Bor</option>
-        <option value="Tömény">Tömény</option><!-->
+      <select class="form-control mr-sm-2 bg-primary text-white" id="SecType" placeholder="Másod típus"> 
+        <!--> <option value="Beer">Sör</option>
+        <option value="Wine">Bor</option>
+        <option value="Spirits">Tömény</option><!-->
       </select> 
-      <select class="form-control mr-sm-2 bg-primary text-white" name="ThirdType" placeholder="Harmad típus"> 
+      <select class="form-control mr-sm-2 bg-primary text-white" id="ThirdType" placeholder="Harmad típus"> 
         <!--> <option value="Vörös">Vörös</option>
         <option value="Fehér">Fehér</option>
-        ><!-->
+        <!-->
       </select> 
     
       <!--><input class="form-control mr-sm-2 bg-primary text-white" name="user" type="text" placeholder="User"><!-->
@@ -61,6 +61,10 @@
   </table>
 </form>
 </body>
+
+<script type="text/javascript" src="data.json"></script>
+<script src="script.js"></script>
+
   
 <div align="center" class=" card text-white bg-primary mb-3 card-title">Rajk kocsma</div>
 </html>
